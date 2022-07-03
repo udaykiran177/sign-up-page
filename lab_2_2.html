@@ -1,0 +1,94 @@
+<hmtl>
+    <head>
+        <title>
+            sign up
+        </title>
+        <style>
+            *{
+                left: 0;
+                right: 0;
+                color:rgba(255, 0, 0, 0.532);
+            }
+            input{
+                border: 0px;
+                border-bottom: 2px solid rgba(0, 0, 0, 0.151);
+                padding: 5px;
+                margin: 10px;
+            }
+            button{
+                border: 0px;
+                background-color:rgba(255, 0, 0, 0.812) ;
+                color: white;
+                width: 200px;
+                height: 50px;
+                margin-bottom: 20px;
+                border-radius: 5px;
+            }
+            fieldset{
+                
+                margin-top: 150px;
+                position: fixed;
+                margin-left: 400px;
+                margin-right: 400px;
+                
+            }
+            fieldset:hover{
+                box-shadow: 5px 5px 75px 10px rgba(44, 42, 42, 0.434);
+                transition: 0.9s;
+            }
+            #or,#bod{
+                display: inline;
+                
+            }
+            #left{
+                
+                margin-top: -35px;
+            }
+            fieldset:not(:hover){
+                transition: 0.9s;
+            }
+            button:hover{
+                cursor: pointer;
+                opacity: 0.4;
+                transition: 0.5s;
+            }
+            #whole{
+                
+                display: flex;
+                justify-content: center;
+            }
+            input:hover{
+                border-bottom:2px solid rgba(0, 0, 0, 0.411);
+                transition: 0.5s;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <div id="whole">
+        <fieldset>
+            <div id="bod">
+            <h1>Sign Up</h1>
+            <input id="username" type="text" placeholder="Username"><br>
+            <input id="mail" type="email" placeholder="E-mail">
+            
+            <div id="or" style="margin-top: 200px;margin-left: 100px;">
+                <h3 style="text-align: center;display: inline;">OR</h3>
+            </div>
+            <div id="left" style="float: right;margin-bottom: 50px;">
+                <button>Log in with Google+</button>
+                <br>
+                <button style="background-color: rgba(0, 0, 255, 0.807);">Log in with Facebook</button>
+            </div>
+            <br>
+            <input id="pass" type="password" placeholder="Password">
+            <br>
+            <input id="pass1" type="password" placeholder="Re-enter Password">
+            <br><br>
+            <button style="width: 170px;;height:35px">Signup</button>
+        </div>
+        </fieldset>
+    </div>
+    </body>
+</hmtl>
